@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int findMINLength(string arr[],int n)
+int findMinLength(string arr[],int n)
 {
 int min=INT_MAX;
 for(int i=0;i<=n;i++)
