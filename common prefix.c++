@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<stdio.h>
 using namespace std;
 int findMinLength(string arr[],int n)
 {
@@ -33,7 +33,7 @@ high=mid-1;
 }
 return(prefix);
 }
-int main(0
+int main()
 {
 string arr[]={"geeksforgeeks","geeks","geek","geezer"};
 int n=sizeof(arr)/sizeof(arr[0]);
